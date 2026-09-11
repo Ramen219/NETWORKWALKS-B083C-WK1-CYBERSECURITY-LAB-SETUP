@@ -69,7 +69,25 @@ It can be used for activities such as:
 
 ## 🏗️ Lab Architecture
 
-![](1-screenshot-title-image.png)
+```mermaid
+flowchart TD
+    A["Windows 11 Host"] --> B["Oracle VirtualBox"]
+    B --> C["Kali Linux VM"]
+
+    C --> D["Virtual Networking"]
+    C --> E["Security Tools"]
+
+    D --> F["Network Testing"]
+    E --> G["Cybersecurity Practice"]
+
+    classDef box fill:#ffffff,stroke:#000000,stroke-width:2px,color:#000000,font-weight:bold;
+
+    class A,B,C,D,E,F,G box;
+```
+
+### Additional Target Machines
+
+The lab can be extended by adding additional virtual machines for isolated network testing and cybersecurity practice.
 
 
 Additional target machines can be added to the same virtual network in future projects.
@@ -80,10 +98,10 @@ Additional target machines can be added to the same virtual network in future pr
 
 | 🧩 Component       | ⚙️ Configuration   |
 | ------------------ | ------------------  |
-| 🖥️ Host OS         | Windows 10         |
-| 🧠 Host RAM        | 8 GB               |
-| ⚡ Processor       | Intel Core i7      |
-| 🧰 Hypervisor      | VirtualBox 7.2  |
+| 🖥️ Host OS         | Windows 11         |
+| 🧠 Host RAM        | 16 GB               |
+| ⚡ Processor       | Intel Core i5      |
+| 🧰 Hypervisor      | VirtualBox 7.2.16  |
 | 🐉 Security OS     | Kali Linux 2026.2  |
 | 🧠 Kali RAM        | 2048 MB            |
 | 🌐 Virtual Network | NAT Network        |
