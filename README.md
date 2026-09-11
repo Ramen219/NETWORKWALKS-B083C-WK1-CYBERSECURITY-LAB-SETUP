@@ -148,7 +148,7 @@ The VM was allocated:
 ```text
 RAM: 2048 MB
 ```
-![](3-screenshot-kali-linux.png)
+![](kali_linux_network.jpeg)
 A shared folder was also configured for transferring required files between the host operating system and the Kali VM.
 
 
@@ -159,7 +159,7 @@ A shared folder was also configured for transferring required files between the 
 
 The Kali Linux network configuration was checked and configured with a consistent IPv4 address.
 
-Example configuration:
+Configuration:
 
 ```text
 IP Address: 10.0.0.2
@@ -305,10 +305,9 @@ This laboratory is intended strictly for education purposes only.
 
 # 👤 Author
 
-**Waqas Karim**\
-Cybersecurity Professional B082
+**Ramen Debbarma**
 
-LinkedIn: [https://www.linkedin.com/in/waqaskarim/](https://www.linkedin.com/in/waqaskarim/)
+LinkedIn: [https://www.linkedin.com/in/waqaskarim/](https://www.linkedin.com/in/ramen-debbarma-a71632286/)
 
 ---
 
